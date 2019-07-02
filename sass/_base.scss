@@ -1,0 +1,224 @@
+//main: main.scss
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact{
+  z-index: 1500;
+}
+
+.bg-contact{
+  z-index: 900;
+  background-color: $secondary-color;
+  width: 100%;
+  height: 53px;
+}
+
+#progress{
+  height: 53px;
+  background: $primary-color;
+}
+
+#parallax-img1 {
+  @include parallax-img("img/home_img/paral1.jpg");}
+
+#parallax-img1a {
+  @include parallax-img("img/home_img/paral1a.jpg"); }
+
+#parallax-img2 {
+  @include parallax-img("img/home_img/paral2.jpg"); }
+
+#parallax-img3 {
+  @include parallax-img("img/home_img/paral3.jpg"); }
+
+#parallax-img4 {
+  @include parallax-img("img/home_img/paral4.jpg"); }
+
+#parallax-photoshop {
+  @include parallax-img("img/photoshop.jpg"); }
+
+#parallax-illustrator {
+  @include parallax-img("img/illustrator.jpg"); }
+
+#parallax-works {
+  @include parallax-img("img/works.jpg"); }
+
+/*=====================================================About me */
+#parallax-aboutme {
+  @include parallax-img("img/aboutme.jpg"); }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/*/* Portrait and Landscape (Background-size problem on iOS) */
+.lorenzo {
+  @include tex;
+  height: 100vh;
+  background-attachment: fixed;
+ }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .lorenzo {
+    background-attachment: scroll !important;
+    @include tex; } }
+
+/*=====================================================News */
+#parallax-news {
+  @include parallax-img("img/news.jpg"); }
+
+/*=====================================================Shooting */
+#parallax-shooting {
+  @include parallax-img("img/shooting.jpg"); }
+
+#parallax-maxxi {
+  @include parallax-img("img/maxxi.jpg"); }
+
+#parallax-ara {
+  @include parallax-img("img/ara.jpg"); }
+
+#parallax-dives {
+  @include parallax-img("img/dives.jpg"); }
+
+/*============================================================= */
+.ham-menu {
+  background: $tertiary-color;
+  height: 3px;
+  width: 30px; }
+
+.h-bar {
+  background: $primary-color;
+  height: 5px;
+  width: 100px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-title;
+  font-size: 35px;
+  margin: 0px;
+  padding: 15px 0px;
+ }
+
+p {
+  font-family: $font-paragraph; }
+
+/*Navbar*/
+#brand {
+  color: $secondary-color; }
+
+#nav-list a {
+  font-size: 20px; }
+
+/*Navbar_button*/
+.navbar-light .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  margin: auto 0px;
+}
+
+button:focus {
+  outline: inherit !important; }
+
+.navbar-light .navbar-toggler-icon {
+  @include parallax-img("img/button.png"); }
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.6) !important; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: $tertiary-color !important; }
+
+.nav-link {
+  padding: 1rem 1rem; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 0; }
+
+a {
+  font-family: $font-title; }
+
+a:hover {
+  background-color: $primary-color;
+  text-decoration: none; }
+
+.card {
+  border: 5px solid $primary-color;
+  border-radius: 0px !important;
+  padding: 5px; }
+
+.jumbotron {
+  margin: 0px !important;
+  padding: 0px !important; }
+
+.mailto a {
+  font-family: $font-paragraph !important; }
+
+.mailto {
+  font-family: $font-paragraph;
+  color: $link-color; }
+
+.contact a {
+  color: $tertiary-color;
+  margin-right: 0 !important; }
+
+#social li {
+  color: $primary-color; }
+
+/*Jum_News*/
+#news {
+  background-color: inherit !important; }
+
+a.btn-primary {
+  color: $tertiary-color !important;
+  background-color: $primary-color !important;
+  border-radius: 0;
+  border-color: $primary-color !important;
+  font-size: 20px; }
+
+/*Colors*/
+.black {
+  color: $tertiary-color; }
+
+.white {
+  color: $secondary-color; }
+
+.yellow {
+  background-color: $primary-color; }
+
+.blackText {
+  background-color: $primary-color;
+  color: $tertiary-color; }
+
+/*Footer*/
+li {
+  list-style: none;
+  font-family: $font-paragraph; }
+
+.social {
+  display: inline-block;
+  color: $primary-color !important; }
+
+.credit {
+  font-size: 15px; }
+
+.border-lorenzo {
+  border: 3px solid $primary-color;
+  padding: 10px; }
+
+/*Masonry Bootstrap*/
+.masonry-column {
+  padding: 0 1px;
+}
+
+.masonry-grid > div .thumbnail {
+  margin: 25px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
